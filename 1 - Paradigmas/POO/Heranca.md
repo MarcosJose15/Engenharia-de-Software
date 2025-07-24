@@ -41,19 +41,10 @@ class Program
         Console.WriteLine($"{myCar.Brand} {myCar.ModelName}");
     }
 }
-Car herda Brand e Honk() de Vehicle 
-Medium
-+15
-w3schools.com
-+15
-Codecademy
-+15
-.
+Car herda Brand e Honk() de Vehicle.
 
 Exemplo com reuso de construtores
-csharp
-Copiar
-Editar
+
 public class Person
 {
     public string Name;
@@ -76,45 +67,16 @@ public class Student : Person
         School = school;
     }
 }
-Usa base(...) para reaproveitar lógica e inicialização da classe pai 
-Wikipédia
-+6
-DEV Community
-+6
-Caffeine Algorithm
-+6
-.
+Usa base(...) para reaproveitar lógica e inicialização da classe.
 
 🧩 Tipos de herança em C#
 Simples: uma derivada herda de uma única base.
 
-Multinível: ClasseC : ClasseB : ClasseA 
-Microsoft Learn
-+6
-Medium
-+6
-Wikipédia
-+6
-Microsoft Learn
-.
+Multinível: ClasseC : ClasseB : ClasseA.
 
-Hierárquica: várias derivadas de uma mesma base 
-Caffeine Algorithm
-+15
-Wikipédia
-+15
-Medium
-+15
-.
+Hierárquica: várias derivadas de uma mesma base.
 
-Interfaces: C# não suporta herança múltipla de classes, mas permite múltiplas interfaces 
-YouTube
-+12
-c-sharpcorner.com
-+12
-Wikipédia
-+12
-.
+Interfaces: C# não suporta herança múltipla de classes, mas permite múltiplas interfaces.
 
 🔁 Sobrescrita de métodos (override)
 Para personalizar o comportamento:
@@ -123,9 +85,6 @@ Na classe base, declare virtual ou abstract.
 
 Na derivada, use override.
 
-csharp
-Copiar
-Editar
 public class Animal
 {
     public virtual void Speak()
@@ -147,26 +106,7 @@ static void Main()
     Animal a = new Dog();
     a.Speak();  // imprime "Au au!" via polimorfismo
 }
-Fundamental para o polimorfismo 
-programiz.com
-+4
-Medium
-+4
-Codecademy
-+4
-Microsoft Learn
-+7
-Wikipédia
-+7
-DEV Community
-+7
-Wikipédia
-+2
-DIO
-+2
-Wikipédia
-+2
-.
+Fundamental para o polimorfismo.
 
 ⚠️ Restrições da herança em C#
 Herança única: não é possível herdar de mais de uma classe diretamente 
@@ -186,25 +126,12 @@ Reúso de código
 
 Organização hierárquica
 
-Facilita polimorfismo 
-programiz.com
-+2
-Caffeine Algorithm
-+2
-DEV Community
-+2
 
 Desvantagens:
 
 Acoplamento forte entre base e derivada
 
 Hierarquias profundas podem complicar manutenção 
-Microsoft Learn
-+15
-DEV Community
-+15
-Wikipédia
-+15
 
 🌱 Quando usar herança?
 Utilize quando houver clara relação “é um” entre entidades, por exemplo:

@@ -27,18 +27,8 @@ var calc = new Calculadora();
 calc.Somar(2, 3);      // usa versão com 2 parâmetros
 calc.Somar(2, 3, 4);   // usa versão com 3 parâmetros
 2. Polimorfismo Dinâmico (em tempo de execução)
-Sobrescrita de método (method overriding): a classe base define um método virtual, e as subclasses usam override para implementar comportamentos específicos 
-Wikipédia
-+9
-Microsoft Learn
-+9
-Tutkit.com
-+9
-.
+Sobrescrita de método (method overriding): a classe base define um método virtual, e as subclasses usam override para implementar comportamentos específicos.
 
-csharp
-Copiar
-Editar
 public class Animal {
     public virtual void EmitirSom() => Console.WriteLine("Som genérico");
 }
@@ -57,16 +47,10 @@ foreach (var a in animais) a.EmitirSom();
 // Au au!
 // Miau!
 3. Polimorfismo via Interfaces e Classes Abstratas
-Interfaces: múltiplas implementações do mesmo método em classes diferentes 
-Nile Bits
-Reddit
-.
+Interfaces: múltiplas implementações do mesmo método em classes diferentes.
 
 Classes abstratas: fornecem métodos abstratos que devem ser implementados nas subclasses.
 
-csharp
-Copiar
-Editar
 public interface IDrawable { void Draw(); }
 
 public class Circle : IDrawable {
@@ -80,22 +64,11 @@ public class Rectangle : IDrawable {
 List<IDrawable> formas = new() { new Circle(), new Rectangle() };
 formas.ForEach(f => f.Draw());
 ✅ Benefícios
-Reduz condicionais (if/else ou switch) baseados em tipo 
-Tutkit.com
-+1
-Microsoft Learn
-+1
-.
+Reduz condicionais (if/else ou switch) baseados em tipo.
 
 Torna o código mais flexível e extensível.
 
-Facilita manutenção e compreensão, essencial em padrões de projeto como Strategy, Factory, etc 
-DIO
-+1
-Medium
-+1
-Wikipédia
-.
+Facilita manutenção e compreensão, essencial em padrões de projeto como Strategy, Factory, etc.
 
 ⚠️ Cuidados
 Método base deve ser virtual/abstract, e o derivado, override.

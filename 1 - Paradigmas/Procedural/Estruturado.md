@@ -70,34 +70,16 @@ Main: faz leitura do usuário e aciona ExibirResultado.
 Este fluxo, separando em funções bem definidas, evidencia o paradigma procedural: sequência de comandos, controle de fluxo com estruturas condicionais e reutilização via funções.
 
 📚 Contexto histórico e comparativo
-Dominante até os anos 1990, antes da popularização da OOP
-Guia dev
-scoutapm.com
-.
+Dominante até os anos 1990, antes da popularização da OOP.
 
-Procedural é subset do imperativo, focado em rotinas como unidades de lógica
-Reddit
-+11
-Wikipédia
-+11
-Guia dev
-+11
-.
+Procedural é subset do imperativo, focado em rotinas como unidades de lógica.
 
-Linguagens como C, Pascal, Fortran foram pioneiras nesse paradigma
-Guia dev
-+7
-rocketseat.com.br
-+7
-treinaweb.com.br
-+7
-.
+Linguagens como C, Pascal, Fortran foram pioneiras nesse paradigma.
 
 🔁 Relação com Orientação a Objetos
 O paradigma procedural pode coexistir dentro de linguagens OOP (como C# ou Java), servindo como ferramenta quando não há necessidade de criar objetos. Programadores podem optar por esse estilo por praticidade ou performance
 Reddit
-Microsoft Learn
-.
+Microsoft Learn.
 
 📌 Conclusão
 O paradigma estruturado/procedural é uma base sólida para aprender programação: ajuda a pensar em fluxo de execução, modularidade e reutilização. Apesar de hoje ser comum usar OOP ou paradigmas funcionais, o procedural ainda é relevante, servindo como ponto de partida em muitos sistemas.
